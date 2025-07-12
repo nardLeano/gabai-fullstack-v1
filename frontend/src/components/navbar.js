@@ -21,6 +21,7 @@ const toggle = () => {
 };
 
 function Header() {
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -59,6 +60,7 @@ function Header() {
       >
         {/* Brand Name */}
         <div className="w-full max-w-4xl flex justify-between items-center">
+          
           <Link to="/">
             <button onClick={scrollToTop}
                 class="group w-12 hover:w-44 h-12 hover:bg-azure relative bg-azure rounded-tl-2xl rounded-tr-2xl rounded-bl-2xl text-neutral-50 duration-700 before:duration-700 before:hover:500 font-bold flex justify-start gap-1 items-center pl-0.5"
